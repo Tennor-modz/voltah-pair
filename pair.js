@@ -75,29 +75,29 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "Caseyrhodes~" + string_session;
+                        let md = "Bellah~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
                         let desc = `*Hello there ! 👋* 
 
 > Do not share your session id with anyone.
 
- *Thanks for CASEYRHODES-XMD* 
+ *VolTah Xmd Success Scan session* 
 
-> Join WhatsApp Channel :- ⤵️
+> Join WhatsApp Group :- ⤵️
  
- https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26
+ https://chat.whatsapp.com/CzFlFQrkdzxFw0pxCBYM7H
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/caseyweb/CASEYRHODES-XMD
+https://github.com/Tennor-modz/Bellah-Xmd 
 
-> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴛᴇᴄʜ*`; 
+> *©Giddy Tennor*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: "ᴍʀ.ᴄᴀsᴇʏʀʜᴏᴅᴇs",
-thumbnailUrl: "",
+thumbnailUrl: "https://img1.pixhost.to/images/5863/601094475_skyzopedia.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26",
 mediaType: 1,
 renderLargerThumbnail: true
