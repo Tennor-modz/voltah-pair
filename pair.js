@@ -96,7 +96,7 @@ https://github.com/Tennor-modz/Bellah-Xmd
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᴍʀ.ᴄᴀsᴇʏʀʜᴏᴅᴇs",
+title: "By Giddy Tennor",
 thumbnailUrl: "https://img1.pixhost.to/images/5863/601094475_skyzopedia.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26",
 mediaType: 1,
